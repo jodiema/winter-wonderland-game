@@ -128,7 +128,7 @@ function preload()
 function setup()
 {
 	createCanvas(1000,1000);
-	background(0);
+	background(255);
 	frameRate(60);
 	colorMode(RGB, 255, 255, 255, 100);	
 
@@ -337,7 +337,7 @@ function draw()
 		textSize(25);
 		textSize(BOLD);
 		fill(0);
-		text("SCORE:  " + game_score,700,620);
+		text("SCORE:  " + game_score,800,620);
 	pop();
 
 	if(startup == false && info == false && gameWon == false && gameLost == false)
@@ -446,7 +446,7 @@ function drawTree(x, y, green, sc)
 
 function draw_arcadeMachine()
 {
-	stroke(0);
+	noStroke();
 	fill(60,70,255);
 	//rect(60,60,880,680);
 	fill(255);
@@ -483,11 +483,12 @@ function draw_arcadeMachine()
 		vertex(100,60);
 	endShape();
 
-	fill(0);
+	noStroke();
+	fill(255);
 	rect(0,0,1000,60);
 
 	stroke(0);
-	strokeWeight(2);
+	strokeWeight(0.5);
 
 	line(60,60,100,100);
 	line(940,60,900,100);
