@@ -17,3 +17,7 @@ h2 {
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 1px;
 }
+
+#game {
+    float: left;
+}
