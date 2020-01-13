@@ -104,8 +104,8 @@ function preload()
    winscreen2 = loadImage("images/cool-santa.png");
    intermed = loadImage("images/startup.jpg")
    shift_image = loadImage("images/computer-key-shift.png");
-   leftarrow_image = loadImage("images/computer-key-arrow-right.png");
-   rightarrow_image = loadImage("images/computer-key-arrow-left.png");
+   leftarrow_image = loadImage("images/computer-key-arrow-left.png");
+   rightarrow_image = loadImage("images/computer-key-arrow-right.png");
 
 	wonderland_title.loadPixels();
 	losescreen1.loadPixels();
