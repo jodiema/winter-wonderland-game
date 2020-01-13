@@ -1,22 +1,26 @@
 
 <!DOCTYPE html>
 <html>
-	<head>
-	   <title>Winter Wonderland Game</title>
-	   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300|Roboto:200" rel="stylesheet">
-	   <link rel="stylesheet" type="text/css" href="css/main.css">
-	</head>
-	<body> 
-	    <h1>WINTER WONDERLAND GAME</h1>
-	    <h2>Team members: Jodie Ma, Ritwik Kesavath, Grayson Clendenon, Kimberly Zhang</h2>
-	    <p>
-	        <script language="javascript" type="text/javascript" src="libraries/p5.js"></script>
-	        <script language="javascript" type="text/javascript" src="libraries/p5.sound.js"></script>
-	    </p>
+    <head>
+        <title>Winter Wonderland Game</title>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300|Roboto:200" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+    </head>
+    <body> 
+        <h1>WINTER WONDERLAND GAME</h1>
+        <h2>Team members: Jodie Ma, Ritwik Kesavath, Grayson Clendenon, Kimberly Zhang</h2>
 
-	    <script language="javascript" type="text/javascript" src="game.js"></script>
+        <audio id="backgroundMusic" autoplay loop>
+            <source src="frosty.mp3" type="audio/mpeg">
+        </audio>
 
-	    <embed src="frosty.mp3" autostart="true" loop="true" hidden="true"></embed>
+        <script>
+            var music = document.getElementById("backgroundMusic");
+            music.volume = 0.1;
+        </script>
 
-	</body>
+        <script language="javascript" type="text/javascript" src="libraries/p5.js"></script>
+        <script language="javascript" type="text/javascript" src="libraries/p5.sound.js"></script>
+        <script language="javascript" type="text/javascript" src="game.js"></script>
+    </body>
 </html>

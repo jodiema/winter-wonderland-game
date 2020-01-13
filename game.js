@@ -1650,7 +1650,7 @@ function loser()
     stroke(0);
     textAlign(CENTER);
     textSize(70);
-    textFont("Calibri");
+    textFont("Times New Roman");
     text("The village was destroyed!", 500, 400);
     textSize(30);
 
