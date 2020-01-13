@@ -1,0 +1,19 @@
+
+body {
+    text-align: center;
+    background: white;
+    color: #313233;
+    margin: 80px;
+}
+
+h1 {
+    font-size: 30pt;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 14pt;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+}
